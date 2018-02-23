@@ -225,8 +225,8 @@ footer {
 @media only screen and (min-width: 769px) {
 
 html {
-	background-color: rgb(59, 177, 67); 			/*green
-	background-color: #560606;				/*crimson red
+	/*background-color: rgb(59, 177, 67); 		*/
+	background-color: #560606;					/*green/*crimson red
 	/*background-color: #7A7675*/				/*smoky gray*/
 }
 
