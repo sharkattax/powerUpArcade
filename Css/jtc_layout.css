@@ -16,10 +16,33 @@
    =============================================
 */
 
+article {
+	position: relative;
+	display: block;
+}
 
-html {
-	height: 100%;
-	margin: 0; padding: 0; border: 0;
+article address {
+	margin: 50px 0px 0px 50px;
+	font-style: normal;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-bottom: 20px;
+	font-size: 0.9em;
+}
+
+article header img {
+	display: block;
+	width: 100%;
+}
+
+article p {
+    margin-left: 20px;
+	margin-right: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 0.9em;
+}
+
+aside {
+	display: none;
 }
 
 body {
@@ -55,7 +78,7 @@ body > header > nav ul li a {
 }
 
 body > header > nav ul li a:visited {
-	color: #EFEFEF;
+	color: none;
 }
 
 
@@ -72,34 +95,6 @@ body > header > img {
 	padding-bottom: 0px;
 }
 
-article {
-	position: relative;
-	display: block;
-}
-
-article header img {
-	display: block;
-	width: 100%;
-}
-
-article p {
-    margin-left: 20px;
-	margin-right: 20px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-size: 0.9em;
-}
-
-article address {
-	margin: 50px 0px 0px 50px;
-	font-style: normal;
-	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	padding-bottom: 20px;
-	font-size: 0.9em;
-}
-
-aside {
-	display: none;
-}
 
 
 body > h1 {
@@ -225,14 +220,20 @@ footer {
 @media only screen and (min-width: 769px) {
 
 html {
-	background-color: white;
+	/*background-color: rgb(59, 177, 67); 		*/
+	background-color: #560606;					/*green/*crimson red
+	/*background-color: #7A7675*/				/*smoky gray*/
+}
+
+html {
+	height: 100%;
+	margin: 0; padding: 0; border: 0;
 }
 
 body {
 	width: 90%;
 	max-width: 1020px;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-
-}
-
+	/*box-shadow: 15px 15px 30px red;*/
+/*-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px*/
+box-shadow: rgba(255, 0, 0, 0.4) 60px 0px 25px,  rgba(255, 0, 0, 0.4) -60px 0px 25px;
 }
